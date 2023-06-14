@@ -1,0 +1,11 @@
+spring:
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.yml
+  datasource:
+    url: jdbc:postgresql://192.168.130.69:5432/habit_tracker?currentSchema=main
+    username: postgres
+    password: 1234
+  jpa: 
+    properties:
+      hibernate:
+        default_schema: main

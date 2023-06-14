@@ -1,10 +1,10 @@
-package com.sushi.habittrackerserver;
+package com.sushi.habittracker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HabitTrackerServerApplicationTests {
+class HabitTrackerApplicationTests {
 
 	@Test
 	void contextLoads() {

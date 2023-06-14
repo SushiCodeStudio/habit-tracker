@@ -1,13 +1,13 @@
-package com.sushi.habittrackerserver;
+package com.sushi.habittracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HabitTrackerServerApplication {
+public class HabitTrackerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HabitTrackerServerApplication.class, args);
+		SpringApplication.run(HabitTrackerApplication.class, args);
 	}
 
 }
